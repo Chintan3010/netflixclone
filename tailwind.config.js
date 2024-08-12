@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      
+    },
+  },
+  plugins: [],
+}
+
+// module.exports = {
+//   module: {
+//     rules: [
+//       {
+//         test: /\.m4v$/,
+//         use: 'file-loader',
+//       },
+//     ],
+//   },
+// };
+
+
